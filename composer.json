@@ -1,4 +1,6 @@
 {
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "name": "composer-installer",
     "type": "composer-plugin",
     "license": "MIT",
