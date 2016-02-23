@@ -1,7 +1,7 @@
 {
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "name": "dimvic/composer-installer",
+    "name": "dimvic/composer-installers",
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
