@@ -1,5 +1,5 @@
 {
-    "name": "dimvic-installer",
+    "name": "composer-installer",
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
