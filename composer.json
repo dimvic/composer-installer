@@ -1,5 +1,7 @@
 {
-    "name": "dimvic-installers",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "name": "dimvic/composer-installers",
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
@@ -15,7 +17,9 @@
         "composer/composer": "~1.0@dev"
     },
     "autoload": {
-        "psr-0": { "dimvic\\Installers\\": "src/" }
+        "psr-0": {
+            "dimvic\\": "src/"
+        }
     },
     "extra": {
         "class": "dimvic\\Installers\\Plugin"

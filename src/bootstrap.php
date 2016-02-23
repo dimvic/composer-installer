@@ -1,11 +1,6 @@
 <?php
 
-function includeIfExists($file)
-{
-    if (file_exists($file)) {
-        return include $file;
-    }
-}
+require_once('includeIfExists.php');
 
 if ((!$loader = includeIfExists(__DIR__ . '/../vendor/autoload.php'))
     && (!$loader = includeIfExists(__DIR__ . '/../../../autoload.php'))
