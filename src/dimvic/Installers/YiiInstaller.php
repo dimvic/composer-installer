@@ -6,10 +6,11 @@ class YiiInstaller extends BaseInstaller
 {
     public function getLocations()
     {
+        $dir = getcwd();
         return [
-            'module' => 'protected/modules/{$name}/',
-            'extension' => 'protected/extensions/{$name}/',
-            'component' => 'protected/components/{$name}/'
+            'module' => $dir.'/protected/modules/{$name}/',
+            'extension' => $dir.'/protected/extensions/{$name}/',
+            'component' => $dir.'/protected/components/{$name}/'
         ];
     }
 }
