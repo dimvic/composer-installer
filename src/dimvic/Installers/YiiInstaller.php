@@ -11,6 +11,8 @@ class YiiInstaller extends BaseInstaller
             'module' => $dir . '/protected/modules/{$name}/',
             'extension' => $dir . '/protected/extensions/{$name}/',
             'component' => $dir . '/protected/components/{$name}/',
+            'vendor' => $dir . '/protected/vendor/{$vendor}/{$name}/',
+            'vendors' => $dir . '/protected/vendors/{$vendor}/{$name}/',
         ];
     }
 }

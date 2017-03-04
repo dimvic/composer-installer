@@ -11,6 +11,8 @@ class UnhInstaller extends BaseInstaller
             'module' => $dir . '/modules/{$name}/',
             'extension' => $dir . '/extensions/{$name}/',
             'component' => $dir . '/components/{$name}/',
+            'vendor' => $dir . '/vendor/{$vendor}/{$name}/',
+            'vendors' => $dir . '/vendors/{$vendor}/{$name}/',
         ];
     }
 }
