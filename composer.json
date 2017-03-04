@@ -7,14 +7,14 @@
     "authors": [
         {
             "name":"Dimitris Vichos",
-            "email":"dimitris@unhooked.gr"
+            "email":"dimitris.vic@gmail.gr"
         }
     ],
     "require": {
         "composer-plugin-api": "^1.0"
     },
     "require-dev": {
-        "composer/composer": "~1.0@dev"
+        "composer/composer": "1.0.*@dev"
     },
     "autoload": {
         "psr-0": {

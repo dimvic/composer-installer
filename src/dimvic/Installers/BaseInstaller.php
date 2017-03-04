@@ -17,8 +17,8 @@ abstract class BaseInstaller
      * Initializes base installer.
      *
      * @param PackageInterface $package
-     * @param Composer         $composer
-     * @param IOInterface      $io
+     * @param Composer $composer
+     * @param IOInterface $io
      */
     public function __construct(PackageInterface $package = null, Composer $composer = null, IOInterface $io = null)
     {
@@ -31,7 +31,7 @@ abstract class BaseInstaller
      * Return the install path based on package type.
      *
      * @param  PackageInterface $package
-     * @param  string           $frameworkType
+     * @param  string $frameworkType
      * @return string
      */
     public function getInstallPath(PackageInterface $package, $frameworkType = '')
@@ -97,7 +97,7 @@ abstract class BaseInstaller
      * Replace vars in a path
      *
      * @param  string $path
-     * @param  array  $vars
+     * @param  array $vars
      * @return string
      */
     protected function templatePath($path, array $vars = [])
@@ -118,7 +118,7 @@ abstract class BaseInstaller
     /**
      * Search through a passed paths array for a custom install path.
      *
-     * @param  array  $paths
+     * @param  array $paths
      * @param  string $name
      * @param  string $type
      * @return string
